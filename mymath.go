@@ -5,9 +5,6 @@ import "math"
 func Sqrt(x float64) float64 {
 	return math.Sqrt(x)
 }
-func Abs(x float64) float64 {
-	return math.Abs(x)
-}
 func Pow(x, y float64) float64 {
 	return math.Pow(x, y)
 }
@@ -34,9 +31,6 @@ func Cosh(x float64) float64 {
 }
 func Tanh(x float64) float64 {
 	return math.Tanh(x)
-}
-func Asin(x float64) float64 {
-	return math.Asin(x)
 }
 func Acos(x float64) float64 {
 	return math.Acos(x)
@@ -97,4 +91,21 @@ func Gamma(x float64) float64 {
 }
 func Erfcinv(x float64) float64 {
 	return math.Erfcinv(x)
+}
+func Abs(x float64) float64 {
+	return math.Abs(x)
+}
+
+func Yn(n int, x float64) float64 {
+	return math.Yn(n, x)
+}
+
+func Acos(x float64) float64 {
+	return math.Acos(x)
+}
+func Acosh(x float64) float64 {
+	return math.Acosh(x)
+}
+func Asin(x float64) float64 {
+	return math.Asin(x)
 }
