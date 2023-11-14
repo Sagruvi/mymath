@@ -32,9 +32,6 @@ func Cosh(x float64) float64 {
 func Tanh(x float64) float64 {
 	return math.Tanh(x)
 }
-func Acos(x float64) float64 {
-	return math.Acos(x)
-}
 func Atan(x float64) float64 {
 	return math.Atan(x)
 }
